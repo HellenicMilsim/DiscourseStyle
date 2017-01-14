@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+#top-navbar{
+    text-align:center;
+    height: 320px;
+    background-color: black;
+    background-image: url("https://hellenic-milsim.community/uploads/default/optimized/1X/b287f571ecaabad6bfd9e38666c7df6034a95b33_1_690x177.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding-bottom:10px;
+}
+
+#top-navbar-links > a{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:30px;
+    font-weight: 600;
+    padding: 0px 5px 2px 5px;
+    transition: background-color 0.3s linear;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+#top-navbar-links > a, #top-navbar-links fa{
+    color: #f3f4f5;
+}
+
+#top-navbar-links a:hover{
+    background-color: black;
+}
+
+a fa {
+    margin-right: 5px;
+}
+
+#top-navbar::before{}
